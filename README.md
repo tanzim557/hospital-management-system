@@ -16,15 +16,15 @@ The system is organized into a modular full-stack architecture:
 
 ```
 hospital/
-├── backend/            # Laravel 10 REST API Backend
-│   ├── app/            # Models, Controllers, Services and Middleware
-│   ├── routes/api.php  # Authenticated API Endpoints
-│   ├── database/       # Migrations, Factories and Seeders
-│   └── railway.json    # Railway Cloud Deployment Spec
-└── frontend/           # Modern React and Vite Single Page Application
-    ├── src/            # Components, Pages, State and Services
-    ├── vercel.json     # Vercel Deployment Configuration
-    └── vite.config.js  # Vite Asset Bundler
+|-- backend/            # Laravel 10 REST API Backend
+|   |-- app/            # Models, Controllers, Services and Middleware
+|   |-- routes/api.php  # Authenticated API Endpoints
+|   |-- database/       # Migrations, Factories and Seeders
+|   |-- railway.json    # Railway Cloud Deployment Spec
+|-- frontend/           # Modern React and Vite Single Page Application
+    |-- src/            # Components, Pages, State and Services
+    |-- vercel.json     # Vercel Deployment Configuration
+    |-- vite.config.js  # Vite Asset Bundler
 ```
 
 ---
